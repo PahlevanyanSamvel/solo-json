@@ -1,0 +1,741 @@
+{
+  "success": true,
+  "correlationID": null,
+  "errors": [
+    
+  ],
+  "data": [
+    {
+      "flowId": 16,
+      "flowName": "onboardingv2_mobile_1.1",
+      "experimentId": 7,
+      "experimentName": "onboarding_psy",
+      "language": "en",
+      "platform": "android",
+      "pages": [
+        {
+          "pageId": 23,
+          "pageName": "welcome",
+          "version": "v2",
+          "data": {
+            "title": "Welcome to",
+            "description": "We use real psychology to help you learn more effectively!",
+            "socialbuttonAbove": "Continue with",
+            "buttonOr": "or",
+            "buttonText": "Create New Account",
+            "footerText": "Already have an Account?",
+            "footerButton": "Log in"
+          }
+        },
+        {
+          "pageId": 24,
+          "pageName": "greetings_1",
+          "version": "v1",
+          "data": {
+            "emoji": "👋",
+            "title": "Welcome, %s!",
+            "description": "We’re glad to have you aboard.\n\nLet’s start by customizing your SoloLearn experience.\n\nThis process takes a minute or so, but will seriously improve your chances of success!",
+            "buttonText": "Let’s go!"
+          }
+        },
+        {
+          "pageId": 25,
+          "pageName": "categoryList",
+          "version": "v2",
+          "data": {
+            "typeId": 4,
+            "buttonTitle": "Select",
+            "allCoursesTitle": "Show me all courses",
+            "title": "Before we start...",
+            "description": "What’s your main goal?",
+            "courseCategories": [
+              {
+"answerId": 12,
+                "id": 1,
+                "shortName": "Web development",
+                "name": "Create “jaw dropping” websites.",
+                "title": "Select your first course.",
+                "desctiption": "Don’t worry, you can add as many courses as you want later.",
+                "note": "Web development is one of the most in-demand professions in the world!"
+              },
+              {
+"answerId": 13,
+
+                "id": 2,
+                "shortName": "Data science",
+                "name": "Become a rockstar data scientist.",
+                "title": "Select your first course.",
+                "desctiption": "Don’t worry, you can add as many courses as you want later.",
+                "note": "Data scientist is the sexiest job of the 21st century!"
+              },
+              {
+"answerId": 14,
+
+                "id": 3,
+                "shortName": "Programming language",
+                "name": "Learn a specific programming language.",
+                "title": "Select your first course.",
+                "desctiption": "Don’t worry, you can add as many courses as you want later.",
+                "note": "Learn a programming language and advance your career!"
+              },
+              {
+"answerId": 15,
+
+                "id": 4,
+                "shortName": "Business analytics",
+                "name": "Master coding for business analytics.",
+                "title": "Select your first course.",
+                "desctiption": "Don’t worry, you can add as many courses as you want later.",
+                "note": "Data is the new oil! Learn to analyze your data or become a business analyst in no time."
+              }
+            ]
+          }
+        },
+        {
+          "pageId": 25,
+          "pageName": "courseList",
+          "version": "v2",
+          "data": {
+            "typeId": 5,
+            "buttonTitle": "Select",
+            "courseListSectionTitles": [
+              "Based on your goal:",
+              "All courses:"
+            ],
+            "courses": [
+              {
+                "alias": "HTML",
+                "id": 1014,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": 3,
+                "isRecommended": true,
+                "isQuizFactoryEnabled": false,
+                "language": "html",
+                "languageName": "HTML",
+                "learners": 6695968,
+                "name": "HTML",
+                "players": 104970,
+                "size": 0,
+                "courseCompletionInHour": 142,
+                "version": 806,
+                "categories": [
+                  1
+                ]
+              },
+              {
+                "courseCompletionInHour": 237,
+                "alias": "CSS",
+                "id": 1023,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "css",
+                "languageName": "CSS",
+                "learners": 1488641,
+                "name": "CSS",
+                "players": 0,
+                "size": 0,
+                "version": 838,
+                "categories": [
+                  1
+                ]
+              },
+              {
+                "courseCompletionInHour": 275,
+                "alias": "JavaScript",
+                "id": 1024,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "tag": 2,
+                "isRecommended": true,
+                "isQuizFactoryEnabled": false,
+                "language": "js",
+                "languageName": "JavaScript",
+                "learners": 2807121,
+                "name": "JavaScript",
+                "players": 121029,
+                "size": 0,
+                "version": 986,
+                "categories": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 357,
+                "alias": "CPlusPlus",
+                "id": 1051,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "cpp",
+                "languageName": "C++",
+                "learners": 5713856,
+                "name": "C++",
+                "players": 390871,
+                "size": 0,
+                "version": 1248,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 143,
+                "alias": "PHP",
+                "id": 1059,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "php",
+                "languageName": "PHP",
+                "learners": 1613130,
+                "name": "PHP",
+                "players": 16726,
+                "size": 0,
+                "version": 489,
+                "categories": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 98,
+                "alias": "SQL",
+                "id": 1060,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "sql",
+                "languageName": "SQL",
+                "learners": 2070669,
+                "name": "SQL",
+                "players": 0,
+                "size": 0,
+                "version": 527,
+                "categories": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "courseCompletionInHour": 219,
+                "alias": "Java",
+                "id": 1068,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "java",
+                "languageName": "Java",
+                "learners": 4415211,
+                "name": "Java",
+                "players": 89884,
+                "size": 0,
+                "version": 468,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 502,
+                "alias": "Python",
+                "id": 1073,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": 1,
+                "isRecommended": true,
+                "isQuizFactoryEnabled": false,
+                "language": "py",
+                "languageName": "Python",
+                "learners": 6377013,
+                "name": "Python 3",
+                "players": 79033,
+                "size": 0,
+                "version": 366,
+                "categories": [
+                  2,
+                  3,
+                  4
+                ]
+              },
+              {
+                "courseCompletionInHour": 259,
+                "alias": "Swift",
+                "id": 1075,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": true,
+                "language": "swift",
+                "languageName": "Swift",
+                "learners": 527635,
+                "name": "Swift 4",
+                "players": 0,
+                "size": 0,
+                "version": 264,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 320,
+                "alias": "CSharp",
+                "id": 1080,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "cs",
+                "languageName": "C#",
+                "learners": 1931925,
+                "name": "C#",
+                "players": 34265,
+                "size": 0,
+                "version": 175,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 281,
+                "alias": "Ruby",
+                "id": 1081,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": true,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "rb",
+                "languageName": "Ruby",
+                "learners": 498521,
+                "name": "Ruby",
+                "players": 4352,
+                "size": 0,
+                "version": 121,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 97,
+                "alias": "jQuery",
+                "id": 1082,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "language": "js",
+                "languageName": "jQuery",
+                "learners": 485734,
+                "name": "jQuery",
+                "players": 0,
+                "size": 0,
+                "version": 62,
+                "categories": [
+                  1
+                ]
+              },
+              {
+                "courseCompletionInHour": 339,
+                "alias": "C",
+                "id": 1089,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": true,
+                "isPlaygroundEnabled": true,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": true,
+                "language": "c",
+                "languageName": "C",
+                "learners": 560171,
+                "name": "C",
+                "players": 0,
+                "size": 0,
+                "version": 25,
+                "categories": [
+                  3
+                ]
+              },
+              {
+                "courseCompletionInHour": 200,
+                "alias": "fullstack",
+                "id": 1092,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "languageName": "Angular",
+                "learners": 28400,
+                "name": "Angular + NestJS",
+                "players": 0,
+                "size": 0,
+                "version": 368,
+                "categories": [
+                  1
+                ]
+              },
+              {
+                "courseCompletionInHour": 200,
+                "alias": "react",
+                "id": 1097,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "languageName": "React",
+                "learners": 25600,
+                "name": "React+Redux",
+                "players": 0,
+                "size": 0,
+                "version": 205,
+                "categories": [
+                  1
+                ]
+              },
+              {
+                "courseCompletionInHour": 200,
+                "alias": "data-science",
+                "id": 1093,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "languageName": "Data Science",
+                "learners": 52100,
+                "name": "DS with Python",
+                "players": 0,
+                "size": 0,
+                "version": 441,
+                "categories": [
+                  2
+                ]
+              },
+              {
+                "courseCompletionInHour": 200,
+                "alias": "machine-learning",
+                "id": 1094,
+                "isEnabled": false,
+                "isLessonFactoryEnabled": false,
+                "isPlayEnabled": false,
+                "isPlaygroundEnabled": false,
+                "isPro": false,
+                "tag": -1,
+                "isRecommended": false,
+                "isQuizFactoryEnabled": false,
+                "languageName": "Machine Learning",
+                "learners": 89300,
+                "name": "Machine Learning",
+                "players": 0,
+                "size": 0,
+                "version": 390,
+                "categories": [
+                  2
+                ]
+              }
+            ],
+            "allCoursesShowTitle": "Show me all courses",
+            "allCoursesHideTitle": "Hide all courses",
+            "allCourses": "All courses"
+          }
+        },
+        {
+          "pageId": 25,
+          "pageName": "motivational",
+          "version": "v1",
+          "data": {
+            "title_1": "Excellent choice! %s is great for %s",
+            "title_2": "%s is a great choice!",
+            "description": "Remember, learning is often challenging, but some of the most worthwhile things in life are. SoloLearn is here to help you every step of your journey.",
+            "buttonText": "Continue!",
+            "imagedescription": "Consistency takes our users to their chosen careers"
+          }
+        },
+        {
+          "pageId": 26,
+          "pageName": "questionExperience",
+          "version": "v1",
+          "data": {
+            "typeId": 1,
+            "title": "How much coding experience do you have?",
+            "questions": [
+              {
+                "id": 1,
+                "title": "I’m totally new to coding",
+                "rate": 1
+              },
+              {
+                "id": 2,
+                "title": "I know a little about coding",
+                "rate": 0.66
+              },
+              {
+                "id": 3,
+                "title": "I know a lot about coding",
+                "rate": 0.33
+              }
+            ],
+            "buttonText": "Select"
+          }
+        },
+        {
+          "pageId": 27,
+          "pageName": "questionAvailability",
+          "version": "v1",
+          "data": {
+            "typeId": 2,
+            "title": "How would you describe yourself?",
+            "questions": [
+              {
+                "id": 4,
+                "title": "Student (with plenty of time to learn.)"
+              },
+              {
+                "id": 5,
+                "title": "Business Person (I have technical aspects to my job.)"
+              },
+              {
+                "id": 6,
+                "title": "Technical Professional (I work with code as a dev or data scientist.)"
+              },
+              {
+                "id": 7,
+                "title": "Non-technical Newbie (I’m looking to reskill myself.)"
+              },
+              {
+                "id": 8,
+                "title": "Hobbyist (this is just a hobby for me, not my whole life.)"
+              }
+            ],
+            "buttonText": "Select"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "questionPace",
+          "version": "v1",
+          "data": {
+            "typeId": 3,
+            "title": "What’s your preferred learning pace?",
+            "questions": [
+              {
+                "id": 9,
+                "title": "🙃 Relaxed",
+                "description": "5 min a day",
+                "value": 5
+              },
+              {
+                "id": 10,
+                "title": "😇 Regular",
+                "description": "10 min a day",
+                "value": 10
+              },
+              {
+                "id": 11,
+                "title": "🧐 Serious",
+                "description": "15 min a day",
+                "value": 15
+              },
+              {
+                "id": 12,
+                "title": "🤩 Insane",
+                "description": "20 min a day",
+                "value": 20
+              }
+            ],
+            "buttonText": "Select"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "loadingScreen",
+          "version": "v1",
+          "data": {
+            "progressCompletionText": "That’s all,",
+            "progressAnimationDuration": 6,
+            "title": "Hang tight!",
+            "description": "Hold on for a few seconds while we’re developing your custom learning plan.",
+            "personInfo": {
+              "imageUrl": "https://www.sololearn.com/uploads/etc/finding_web_dev_job.png",
+              "title": "Meet one of our happy users!",
+              "description": "“SoloLearn helped me learn to code and land a job in less than a year”",
+              "info": "Jeremy, 23, mobile developer from Chicago, IL"
+            },
+            "buttonText": "Thank’s!"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "learningPlan",
+          "version": "v1",
+          "data": {
+            "title": "You’re ready to go!",
+            "description": "With just %s of learning per day, you'll complete %s course by %s.",
+            "lessonTitle": "LEARN",
+            "practiceTitle": "PRACTICE",
+            "endDateTitle": "FINISH BY",
+            "buttonText": "Continue"
+          }
+        },
+        {
+          "pageId": 31,
+          "pageName": "allowNotification",
+          "version": "v1",
+          "data": {
+            "title": "Want to accelerate your learning?",
+            "subTitle": "Our smart push notifications are based on learning science and increase your chances of success by 76%.",
+            "remindMeTitle": "Allow Smart Notifications",
+            "skipButtonText": "Skip for Now",
+            "infoText": "You can turn them off anytime"
+          }
+        },
+        {
+          "pageId": 24,
+          "pageName": "greetings_2",
+          "version": "v1",
+          "data": {
+            "emoji": "🚀",
+            "title": "Your %s journey starts here!",
+            "description": "Put SoloLearn and yourself to the test for the next 2 weeks, and see how we can accelerate your learning.\nWith SoloLearn, you’ll be a %s master in no time at all!\nHere’s how we’ll do it together...",
+            "buttonText": "Born ready!"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "quoteScreen_1",
+          "version": "v1",
+          "data": {
+            "showProImage": true,
+            "quoteInfo": "Backed by research:",
+            "title": "Practice makes perfect.",
+            "description": "Bridge the gap between theory and practice with unlimited code exercises.",
+            "quote": "Practice greatly increases the likelihood that\nstudents will permanently remember\nnew information.",
+            "author": "- Anderson et al․ 2008",
+            "buttonText": "Next"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "quoteScreen_2",
+          "version": "v1",
+          "data": {
+            "showProImage": true,
+            "quoteInfo": "Backed by research:",
+            "title": "Use cases build associations.",
+            "description": "Turn input into understanding by solving real-life problems with in-lesson practice exercises.",
+            "quote": "Associations not only help us organize material so that it is easy to store in memory, they also give us the hooks that will allow us later to dig the material out of memory, to recall it.",
+            "author": "- Kosslyn et al. 2017",
+            "buttonText": "Next"
+          }
+        },
+        {
+          "pageId": 28,
+          "pageName": "quoteScreen_3",
+          "version": "v1",
+          "data": {
+            "showProImage": true,
+            "quoteInfo": "Backed by research:",
+            "title": "Challenging yourself improves recall.",
+            "description": "Move what you’ve learned into your long term memory using fun quizzes and mini-projects.",
+            "quote": "...the advantage is that it relieves the burden on short-term memory because recall can be achieved through a single association with an already-existing code in long-term memory.",
+            "author": "- William G. et al. 1980",
+            "infoLeftPart": "With",
+            "infoRightPart": "you can learn effectively!",
+            "buttonText": "Ok, Thank’s"
+          }
+        },
+        {
+          "pageId": 29,
+          "pageName": "psychoAttackDemo",
+          "version": "v1",
+          "data": {
+            
+          }
+        },
+        {
+          "pageId": 29,
+          "pageName": "selectButtonConfig",
+          "version": "v1",
+          "data": {
+            "config": [
+              "categoryList",
+              "courseList",
+              "questionExperience",
+              "questionAvailability",
+              "questionPace"
+            ]
+          }
+        },
+        {
+          "pageId": 30,
+          "pageName": "landingPage",
+          "version": "v1",
+          "data": {
+            "page": "lesson"
+          }
+        }
+      ]
+    }
+  ]
+}
